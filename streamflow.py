@@ -30,7 +30,9 @@ def plot_streamflow(dates, flows, sites):
     plt.ylabel("Streamflow (cfs)")
     plt.tight_layout()
     plt.grid(True)
+    plt.savefig("provo_streamflow.png", dpi=150, bbox_inches="tight")
     plt.show()
+
 
 
 # Main program
